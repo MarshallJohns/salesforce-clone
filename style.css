@@ -1,0 +1,117 @@
+.header {
+  height: 8vh;
+  width: 100vw;
+  border-bottom: 4px solid #00a1e0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.safe-area {
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+.sf-logo {
+  align-self: center;
+}
+
+.navbar {
+  display: flex;
+  align-self: flex-end;
+  padding: 15px;
+}
+
+.nav-link {
+  margin-right: 25px;
+  font-size: 18px;
+}
+
+.contact-login-container {
+  display: flex;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.contact-login-container > p {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.try-free-button {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  padding: 10px 15px;
+  background-color: #278806;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.safe-area-half {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 0px;
+}
+
+.hero-headline {
+  font-size: 36px;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.donation-text {
+  font-size: 24px;
+  padding-right: 20px;
+  margin-bottom: 25px;
+}
+
+.hero-button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.story-button {
+  background-color: #215ca0;
+  color: white;
+  margin-right: 25px;
+}
+
+.demo-button {
+  background-color: transparent;
+  color: #215ca0;
+  font-weight: 500;
+}
+
+.solution-text {
+  text-transform: uppercase;
+  color: #215ca0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.green-bar {
+  position: absolute;
+  left: 0;
+  top: 8vh;
+  background-color: #caebe9;
+  height: 35vh;
+  width: 65vw;
+  z-index: -1;
+}
